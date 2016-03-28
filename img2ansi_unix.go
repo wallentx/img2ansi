@@ -5,7 +5,7 @@ package main
 import (
 	"os"
 
-	"code.google.com/p/gosshold/ssh/terminal"
+	"golang.org/x/crypto/ssh"
 )
 
 func getTermDim() (w, h int, err error) {
